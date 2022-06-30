@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2adec32960d943f0984f38561ff334d9" Name="Diagram1" ZoomLevel="98">
+        <EntityTypeShape EntityType="db_a7b2aa_accorrModel.BliverUser" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a7b2aa_accorrModel.BliverUserClient" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a7b2aa_accorrModel.Client" Width="1.5" PointX="6.625" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a7b2aa_accorrModel.ClientCategory" Width="1.5" PointX="3.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a7b2aa_accorrModel.ClientNote" Width="1.5" PointX="8.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a7b2aa_accorrModel.Company" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a7b2aa_accorrModel.Employee" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a7b2aa_accorrModel.Evaluation" Width="1.5" PointX="8.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a7b2aa_accorrModel.EvalutionPoint" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a7b2aa_accorrModel.GalleryImage" Width="1.5" PointX="2.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a7b2aa_accorrModel.HiredApplication" Width="1.5" PointX="4.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a7b2aa_accorrModel.HirePost" Width="1.5" PointX="6.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a7b2aa_accorrModel.HireWithU" Width="1.5" PointX="8.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a7b2aa_accorrModel.MonthlyScore" Width="1.5" PointX="10.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a7b2aa_accorrModel.sysdiagram" Width="1.5" PointX="10.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a7b2aa_accorrModel.Team" Width="1.5" PointX="10.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a7b2aa_accorrModel.User" Width="1.5" PointX="10.75" PointY="9.875" IsExpanded="true" />
+        <AssociationConnector Association="db_a7b2aa_accorrModel.FK_BliverUser_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a7b2aa_accorrModel.FK_BliverUserClient_BliverUser" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a7b2aa_accorrModel.FK_ClientNote_BliverUser" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a7b2aa_accorrModel.FK_BliverUserClient_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a7b2aa_accorrModel.FK_Client_ClientCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a7b2aa_accorrModel.FK_Client_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a7b2aa_accorrModel.FK_ClientNote_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a7b2aa_accorrModel.FK_BliverUserClient_ClientCategory" />
+        <AssociationConnector Association="db_a7b2aa_accorrModel.FK_BliverUserClient_Company" />
+        <AssociationConnector Association="db_a7b2aa_accorrModel.FK_Client_ClientCategory1" />
+        <EntityTypeShape EntityType="db_a7b2aa_accorrModel.ClientDetail" Width="1.5" PointX="13.25" PointY="2.75" />
+        <AssociationConnector Association="db_a7b2aa_accorrModel.FK_ClientDetail_BliverUser" />
+        <AssociationConnector Association="db_a7b2aa_accorrModel.FK_ClientDetail_Client" />
+        <AssociationConnector Association="db_a7b2aa_accorrModel.FK_ClientDetail_Company" />
+        <EntityTypeShape EntityType="db_a7b2aa_accorrModel.BlieverAction" Width="1.5" PointX="11.625" PointY="13.375" />
+        <EntityTypeShape EntityType="db_a7b2aa_accorrModel.BlieverClientStage" Width="2.125" PointX="2.375" PointY="13" />
+        <EntityTypeShape EntityType="db_a7b2aa_accorrModel.BlieverUserClientAction" Width="1.5" PointX="13.875" PointY="8.875" />
+        <AssociationConnector Association="db_a7b2aa_accorrModel.FK_BlieverUserClientAction_BlieverAction" />
+        <AssociationConnector Association="db_a7b2aa_accorrModel.FK_BliverUserClient_BlieverClientStage" />
+        <AssociationConnector Association="db_a7b2aa_accorrModel.FK_BlieverUserClientAction_BliverUser" />
+        <AssociationConnector Association="db_a7b2aa_accorrModel.FK_BlieverUserClientAction_Client" />
+        <EntityTypeShape EntityType="db_a7b2aa_accorrModel.AreaGov" Width="1.5" PointX="5.375" PointY="13.375" />
+        <EntityTypeShape EntityType="db_a7b2aa_accorrModel.BliverProject" Width="1.5" PointX="8" PointY="12.625" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
